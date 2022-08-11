@@ -1,0 +1,397 @@
+/* this the body tag */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+/* this for the navbar */
+a{
+    text-decoration: none;
+}
+/* this for the bg */
+.sec1 > img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    z-index: -2;
+}
+/* this for all the address and contact */
+.sec1{
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+/* this the icon styling */
+.marked{
+    color: #ff974f;
+    width: 20px;
+    font-size: 5vw;
+}
+/* this for both addres and contact container */
+.header{
+    padding: 20px;
+    display: flex;
+}
+.address{
+    color: white;
+}
+.ghost{
+    width: 125px;
+}
+.telephone{
+    color: #ff974f;
+}
+.phone-container{
+    width: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ghost-spacing{
+    width: 20%;
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 20vh;
+    position: relative;
+    left: 50px;
+}
+.logo > img{
+    width: 90%;
+    height: 70%;
+}
+.links-border{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 1.5vw;
+}
+.links{
+    color: white;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links > a{
+    color: white;
+    padding: 20px;
+}
+.border{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #ff974f;
+    border-radius: 5px;
+    position: relative;
+    right: 10px;
+}
+
+.border > a{
+    color: white;
+    position: relative;
+    right: -8px;
+}
+.border:hover{
+    border-color: #ff8c00;
+}
+h1{
+    font-size: 75px;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: lora, serif;
+    text-align: center;
+}
+/* sec2 */
+.whitecon{
+    max-width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.center{
+    width: 670px;
+    height: 500px;
+    /* background-color: #69a61e; */
+    line-height: 23px;
+}
+h2{
+    font-size: 17px;
+}
+h3{
+    font-size: 33px;
+    text-transform: uppercase;
+    position: relative;
+    left: 66px;
+}
+.border-line{
+    width: 90px;
+    height: 2px;
+    background-color: #ff8c00;
+    position: relative;
+    left: 66px;
+}
+.phone{
+   top: 5%;
+   left: 70px;
+    position: relative;
+ }
+ .pho{
+    position: relative;
+    left: 110px;
+    bottom: 11px;
+ }
+ .lope{
+    left: 70px;
+     position: relative;
+  }
+  .mai{
+     position: relative;
+     left: 110px;
+     bottom: 38px;
+  }
+  .location{
+    left: 70px;
+     position: relative;
+     bottom: 20px;
+  }
+  .adress{
+     position: relative;
+     left: 110px;
+     bottom: 58px;
+  }
+
+h4{
+    font-size: 19px;
+    font-weight: 400;
+}
+.team{
+    width: 500px;
+    height: 350px;
+    background-image: url(../IMAGES/team-colored.jpeg);
+}
+/* sec3 */
+#augusta{
+    max-width: 100%;
+    height: 110vh;
+    background-image: url(../images/augusta.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-white{
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact{
+    width: 400px;
+    height: 500px;
+    /* background-color: rgba(0, 128, 128, 0.637); */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    line-height: 35px;
+}
+h5{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    left: 70px;
+}
+h6{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(63, 63, 63);
+    
+}
+
+/* .forms{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 128, 128, 0.637);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 50px;
+} */
+.fa:hover{
+    color: #ff974f;
+}
+.face{
+    left: 27rem;
+    top: -170px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    width: 37px;
+    height: 30px;
+    position: relative;
+    text-align: center;
+    padding-top: 5px; 
+    position: relative; 
+}
+.face:hover{
+   color:  #ff974f;
+}
+/* this is for twitter icon */
+.twitter{
+    left: 27rem;
+   top: -170px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    width: 37px;
+    height: 30px;
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+}
+.twitter:hover{
+    color:  #ff974f;
+ }
+/* this is for linkedin icon */
+.in{
+   left: 27rem;
+   top: -170px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    width: 37px;
+    height: 30px;
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+}
+.in:hover{
+    color:  #ff974f;
+ }
+/* this is for instagram icon */
+.insta{
+  left: 27rem;
+    top: -170px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    width: 37px;
+    height: 30px;
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+}
+.insta:hover{
+    color:  #ff974f;
+ }
+/* this is for vimeo icon */
+.vimeo{
+   left: 27rem;
+   top: -170px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    width: 37px;
+    height: 30px;
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    position: relative;
+}
+.vimeo:hover{
+    color:  #ff974f;
+ }
+ .name{
+     position: relative;
+     top: 50px;
+    border-color: #666567;
+    font-family: raleway,sans-serif;
+    right: 50px;
+  
+}
+/* for the form */
+.hold{
+    width: 500px;
+    height: 50px;
+    border: 1px solid #f1f1f1;
+}
+ /* for the form */
+.mail{
+    width: 500px;
+    height: 50px; 
+    border: 1px solid #f1f1f1;
+}
+ /* for the form */
+.age{
+    width: 500px;
+    height: 180px;
+    border: 1px solid #f1f1f1;
+}
+/* for the button */
+.sub{
+    background-color:  #ff974f;
+    color: white;
+    padding: 16px 30px;
+    border: none;
+    font-size: inherit;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    /* display: inline-block; */
+    border-radius: 4px;
+    text-align: center;
+    /* justify-content: center; */
+    position: relative;
+   left: 20rem;   
+}
+.sub:hover{
+   background-color: #ff8c00;  
+   /* box-shadow: 0px 0px 15px  #ff8c00;               */
+}
+/* #texts{
+    width: 470px;
+    height: 40px;
+    border: 0.5px solid;
+}
+#texts-area{
+    width: 470px;
+    height: 180px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #fc9e2a;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 275px;
+} */
+footer{
+    max-width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

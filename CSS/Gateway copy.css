@@ -1,0 +1,506 @@
+body{
+   margin: 0;
+}
+/* this sec1 is basically for the background image */
+.sec1 {
+    width: 100%;
+    height: 145vh;
+    /* background-color: aqua; */
+    background-image: url(../IMAGES/download.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+/* this is for the address */
+.header {
+    width: 40%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 80px;
+}
+/* this is for our call us at and address */
+p {
+    font-size: 12px;
+    font-family: Arial, serif;
+    font-weight: 600;
+    color: rgb(253, 253, 253);
+}
+/* this is for the address and number  */
+h1 {
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    color: rgb(179, 181, 182);
+}
+/* this is for the contact */
+.header2 {
+    width: 20%;
+    height: 90px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-left: 68rem;
+    margin-top: -100px;
+}
+/* this the logo and name */
+.img1{
+    width: 400px;
+    margin-left: 110px;
+    margin-bottom: 590px;
+}
+/* this is for the navbar */
+.navs{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 590px;
+    
+}
+/* this is for nave text for contact and home */
+a{
+    font-size: 20px;
+    color: rgb(255, 240, 240);
+    text-decoration: none;
+    
+}
+/* contact us border */
+.border-line{
+    width: 100px;
+    height: 50px;
+    border: 2px solid #ff974f;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* this is for the about and practise text */
+.faint{
+    color: rgba(183, 184, 185, 0.979);
+}
+/* the container for navbar */
+.center{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* you deserve */
+.big{
+    color: white;
+    font-weight: 900;
+    font-family: 'lora'serif;
+    text-align: center;
+    margin-top: -31rem;  
+    font-size: 72px;
+}
+/* the best property */
+.big1{
+    color: white;
+    font-weight: 900;
+    font-family: 'lora'serif;
+    text-align: center;
+    font-size: 72px;
+}
+/* law specialists */
+.big2{
+    color: #ff974f;
+    font-size: 25px;
+    font-family: inherit;
+    text-align: center;
+    
+}
+/* practise area button */
+.btn{
+   background-color: #ff974f;
+   margin-left: 43%;
+   padding: 20px 30px 20px 30px;
+   border-radius: 3px;
+}
+.btn:hover{
+    background-color: #ff8c00;  
+    /* box-shadow: 0px 0px 20px  #ff8c00;               */
+ }
+/* .btn :hover{
+    color: orange;} */
+/* this is for the white border for the first images */
+.images{
+    background-color: #ffffff;
+     /* margin: 0;  */
+    /* height: auto; */
+    padding: 15px 7px 15px 15px; 
+    background-color:white;
+    /* display: block;
+    box-sizing: border-box; */
+    width: fit-content;   
+    height: fit-content;
+    margin-left: 11rem;
+   margin-bottom: -5rem;
+}
+/* the image style */
+.gate{
+    width: 350px;
+    height: 300px;
+   
+}
+/* the image style */
+.mann{
+    width: 350px;
+    height: 300px
+}
+/* the image style */
+.keyy{
+    width: 350px;
+    height: 300px
+}
+/* this the white background under the first image */
+.white{
+    background-color: white;
+    /* padding: 80px 0 80px; */
+    padding: 100px 0 110px;
+     /* display: block; */
+     margin-top: -18rem;
+     height: 600px;
+}
+/* Welcome to our law firm */
+.h4{
+    color: #636363;
+    font-size: 16px;
+    font-family: inherit;
+    margin-top: -25rem;
+    margin-left: 140px;   
+}
+/* GATEWAY PARTNERS */
+.h5{
+    color: #1f2a30;
+    font-family: 'lora'serif;
+    font-size: 25.6px;
+    margin-left: 140px;
+    margin-top: -6px;
+}
+/* this is for the line */
+.h6{
+    /* position: static; */
+    width: 80px;
+    height: 2px;
+    background-color: #ff974f;
+   margin-bottom: -34%;
+   margin-left: 10%;
+}
+/* this the color of our aim */
+.p{
+    color: black;
+  font-size: 15px;
+   font-family: Raleway, sans-serif;
+   margin-left: 140px;
+   font-weight: 400;
+   padding-block: 500px;
+}
+/* this is for the business img */
+.business{
+    width: 270px;
+    height: 160px;
+    margin-left: 45rem; 
+    position: relative;
+    bottom: 50px;
+    /* transition: 0.5s ease-in-out;             */
+}
+/* .business:hover{
+   transform: scale(1.1);
+    box-shadow: 0px 0px 15px  #ff8c00; 
+} */
+/* this is for the law img */
+.law{
+    width: 270px;
+    height: 160px;
+    bottom: 50px;
+    position: relative;
+    bottom: 50px;
+    /* transition: 0.5s ease-in-out;             */
+}
+/* .law:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px  #ff8c00;  
+} */
+
+/* this to move the two img up */
+.contain{
+    margin-top: -53rem;
+}
+/* this is for Quality Law Service */
+.quality{
+    color: black;
+    font-family: 'lora'serif;
+    font-size: 25.6px;
+    margin-left: 45rem;
+    position: relative;
+    bottom: 40px;
+
+}
+/* this is for Lawyers that say they are “aggressive */
+.lawyers{
+    color: black;
+  font-size: 15px;
+   font-family: Raleway, sans-serif;
+   margin-left: 140px;
+   font-weight: 200;
+   margin-left: 45rem;  
+   position: relative;
+    bottom: 32px;
+}
+/* this is for The truth of the matter is, being */
+.truth{
+    color: black;
+  font-size: 15px;
+   font-family: Raleway, sans-serif;
+   margin-left: 140px;
+   font-weight: 400;
+   margin-left: 65rem; 
+   margin-top: -11rem;
+  
+}
+/* this is for read more button */
+.read{
+   border: 1px solid #f1f1f1;
+   color: black;
+   font-size: 20px;
+   padding: 10px 20px 10px 20px;
+   margin-left: 130px;
+   border-radius: 2px;
+  
+}
+.read:hover{
+    border: 2px solid  #ff974f;   
+}
+/* this is the last bg  */
+#augusta{
+    background-image: url(../IMAGES/augusta.png);
+    width: 100%;
+    height: 118vh;
+    background-attachment: fixed;
+}
+/* this is the white  bg on it */
+.form{
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    margin-top: -50rem;
+    margin-left: 8rem;
+}   
+/* this for talk to us now */
+.now{
+   font-size: 16px;
+   font-family: raleway sans-serif;
+   margin-top: -30rem;
+   margin-left: 13rem;
+   font-weight: 700;
+}
+/* this is for contact us */
+.us{
+    font-size: 32px;
+    font-family: lora serif;
+    margin-left: 13rem;
+    margin-top: 1rem;
+}
+/* the last line */
+.h8{
+    position: static;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    background-color: #ff974f;
+   margin-bottom: -34%;
+   /* margin-left: 10%; */
+   margin-left: 15%;
+}
+/* this is for Our Lawyers are ready */
+.you{
+    color: black;
+  font-size: 15px;
+   font-family: Raleway, sans-serif;
+   /* margin-left: 140px; */
+   font-weight: 400;
+   margin-top: 33rem;
+   margin-left: 13rem;
+}
+.fa:hover{
+    color: #ff974f;
+}
+/* this is for facebook icon */
+    .face{
+        margin-left: 60rem;
+        margin-top: -170px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+        width: 37px;
+        height: 30px;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;  
+    }
+    .face:hover{
+       color:  #ff974f;
+    }
+    /* this is for twitter icon */
+    .twitter{
+        margin-left: 63rem;
+        margin-top: -37px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+        width: 37px;
+        height: 30px;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .twitter:hover{
+        color:  #ff974f;
+     }
+    /* this is for linkedin icon */
+    .in{
+        margin-left: 66rem;
+        margin-top: -37px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+        width: 37px;
+        height: 30px;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .in:hover{
+        color:  #ff974f;
+     }
+    /* this is for instagram icon */
+    .insta{
+        margin-left: 69rem;
+        margin-top: -37px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+        width: 37px;
+        height: 30px;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .insta:hover{
+        color:  #ff974f;
+     }
+    /* this is for vimeo icon */
+    .vimeo{
+        margin-left: 72rem;
+        margin-top: -37px;
+        border: 1px solid #f1f1f1;
+        border-radius: 3px;
+        width: 37px;
+        height: 30px;
+        position: relative;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .vimeo:hover{
+        color:  #ff974f;
+     }
+    /* this is the phone icon */
+    .phone{
+      margin-top: 12%;
+      margin-left: 15%;
+      }
+      /* this is the phone color */
+      .color{
+          font-size: 16px;
+          margin-left: 17%;
+          margin-top: -28px;
+          font-weight: 600;
+      }
+      /* this is the envelope icon */
+      .lope{
+          margin-left: 15%;
+      }
+      /* this is to style the email */
+      .email{
+        margin-left: 18%; 
+        margin-top: -28px;
+      }
+      /* location icon */
+     .location{
+        margin-top: -0%;
+        margin-left: 15%;
+     }
+     /* this is to style the adress  */
+     .map{
+        margin-left: 18%; 
+        margin-top: -28px;
+     }
+     /* this the form container */
+     .name{
+        margin-left: 50%;
+        margin-top: -320px;
+        border-color: #666567;
+        font-family: raleway,sans-serif;
+      
+    }
+    /* for the form */
+    .hold{
+        width: 500px;
+        height: 30px;
+        border: 1px solid #f1f1f1;
+    }
+     /* for the form */
+    .mail{
+        width: 500px;
+        height: 30px; 
+        border: 1px solid #f1f1f1;
+    }
+     /* for the form */
+    .age{
+        width: 500px;
+        height: 100px;
+        border: 1px solid #f1f1f1;
+    }
+    /* for the button */
+    .sub{
+        background-color:  #ff974f;
+        color: white;
+        padding: 16px 30px;
+        border: none;
+        font-size: inherit;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        /* display: inline-block; */
+        border-radius: 4px;
+        text-align: center;
+        /* justify-content: center; */
+        margin-left: 21rem;   
+    }
+    .sub:hover{
+       background-color: #ff8c00;  
+       /* box-shadow: 0px 0px 15px  #ff8c00;               */
+    }
+    /* this for the footer bg */
+  .foot{
+      background-color: white;
+      width: 100%;
+      height: 40px;
+    margin-top: 120px;
+  }
+  /* this for the footer text */
+  .tade{
+      margin-left: 120px;
+      color: #444343;
+      padding: 18px 0 0 18px;
+      font-weight: 500;
+      font-family: raleway,sans-serif;
+  }
+  /* this for the link text in the footer */
+  .last{
+      font-size: 12.5px;
+      font-weight: 500;
+      color: #444343;
+      cursor: pointer;
+  }
+
+    
